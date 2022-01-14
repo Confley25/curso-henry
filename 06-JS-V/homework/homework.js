@@ -8,19 +8,19 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-      function Usuario(opciones) {
-        this.usuario: opciones.usuario;
-        this.nombre: opciones.nombre;
-        this.email: opciones.email;
-        this.password: opciones.password;
-      }
+       function Usuario(opciones) {
+    this.usuario = opciones.usuario;
+    this.nombre = opciones.nombre;
+    this.email = opciones.email;
+    this.password = opciones.password;
+  }
 
-      Usuario.prototype.saludar = function() {
-        return 'Hola, mi nombre es ' + this.nombre;
-      };
+  Usuario.prototype.saludar = function() {
+    return 'Hola, mi nombre es ' + this.nombre;
+  };
 
-      return Usuario;
-  
+  return Usuario;
+
 }
 
 function agregarMetodoPrototype(Constructor) {
@@ -65,11 +65,11 @@ function agregarStringInvertida() {
       this.nombre = nombre,
       this.apellido = apellido,
       this.edad = edad,
-      this.domicilio = domicilio,
+      this.domicilio = domicilio
       this.detalle = function(argument) {
-        Nombre: this.nombre,
-        Apellido: this.apellido,
-        Edad: this.edad,
+        Nombre: this.nombre;
+        Apellido: this.apellido;
+        Edad: this.edad;
         Domicilio: this.domicilio
       }
     }
