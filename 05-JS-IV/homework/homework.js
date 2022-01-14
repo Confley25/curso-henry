@@ -6,9 +6,9 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-<<<<<<< HEAD
+
       
-=======
+
 
     var obj = {
     nombre: nombre,
@@ -18,7 +18,6 @@ function crearGato(nombre, edad) {
     }
   };
   return obj;
->>>>>>> 2f25ad666eeb19cdff583f3261f38e6a703693f8
 
 }
 
@@ -68,13 +67,12 @@ function nuevoUsuario(nombre, email, password) {
   // Devuelve el objeto
   // Tu código:
    var obj = {
-      nombre = nombre,
-      email = email,
-      password = password
-    };
+    nombre: nombre,
+    email: email,
+    password: password
+  };
 
-    return obj;
-
+  return obj;
 }
 
 function tieneEmail(usuario) {
